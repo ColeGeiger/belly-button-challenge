@@ -4,7 +4,7 @@ var samplesData = [];
 d3.json("https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json").then(function(data) {
 
   samplesData = data;
-  console.log('Loaded Data:', samplesData);
+  console.log(samplesData);
   // Initialize the bar chart with the first sample
   updateBarChart(samplesData.names[0]);
 
