@@ -1,1 +1,4 @@
 # belly-button-challenge
+Belly Button Biodiversity Dashboard
+
+This project involves creating an interactive dashboard to explore the Belly Button Biodiversity dataset, cataloging microbes in human navels. The dashboard includes a horizontal bar chart and a bubble chart, displaying the top 10 operational taxonomic units (OTUs) and sample information. Using D3.js, the charts update dynamically based on the selected individual. The dataset is retrieved from samples.json. The dashboard layout, exemplified in the provided image, showcases the charts and individual metadata. Users can navigate the data using a dropdown menu to select different individuals. The project utilizes HTML, CSS, and JavaScript for visualization and interaction.
